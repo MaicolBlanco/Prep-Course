@@ -66,6 +66,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  /* array.include(elemento) */
   respuesta = false
   for (let i = 0; i < array.length; i++) {
     if (array[i] === elemento)
@@ -104,6 +105,7 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  /* return Math.max.apply(null,numero) */
   let numeroGrande = numeros[0]
   for (let i = 1; i < numeros.length; i++) {
     if (numeros[i] > numeroGrande) {
